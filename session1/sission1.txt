@@ -1,0 +1,51 @@
+step1:
+      mkdir "mina makram"
+      cd    "mina makram"
+
+
+step2:
+      mkdir document
+      cd    document
+      touch file1.txt file2.txt file3.txt
+      cd ..
+ 
+
+step3:
+      touch .hidden_file
+      
+cd
+step4:
+      nano file1.txt --> (write hello worled and save it)
+      cat  file1.txt
+ 
+step5:
+      cd   document
+
+step6:
+      mkdir "-"
+      cd ..
+      cd document/-
+      
+step7:
+      cp -r document my_document
+
+step8:
+      cat .hidden_file ->(empty file)
+
+step9:
+     mv file2.txt ~/"mina makram"/
+     mv file3.txt ~/"mina makram"/
+
+step10:
+     cd ~
+     rm -r "mina makram"
+
+       ----------------------------------------------------------------------------------------------------------------------
+
+     
+
+      
+      
+     
+      
+ 
