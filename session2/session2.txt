@@ -1,0 +1,48 @@
+step1{
+    cd Downloads 
+    unzip updated-Task-02.zip ->(decompress task-2)
+}
+-------------------------------------------------------------------------------
+step2{
+    cd updated-Task-02 -> (to enter this directory)
+    ls 
+    cat README.txt ->(to read what I do )
+    ls -a -> (to show hidden files)
+    tar -xf .level-1.tar -> (to do untar to this dir)
+}
+-------------------------------------------------------------------------------
+step3{
+    cd .level-1 ->(to enter level-1)
+    ls 
+    cat README.txt ->(to read what I do)
+    file level-2 -> (to know what is extention of this dir and this dir (.tar))
+    mv level-2 level-2.txt -> (to rename this dir with extention (.tar))
+    tar -xf level-2.tar -> (to do untar to this dir)
+}
+-------------------------------------------------------------------------------
+step4{
+    cd .level-2 ->(to enter level-2)
+    ls 
+    cat README.txt ->(to read what I do )
+    find -name level-3 ->(to find the path of level-3)
+    cd gBT5u0vLT5 ->(to enter the dir of level-3)
+}
+-------------------------------------------------------------------------------
+step5{
+    mv level-3 level-3.tar -> (to rename this dir with extention (.tar))
+    tar -xf level-3.tar -> (to do untar to this dir)
+    cd level-3 -> (to enter level-3)
+}
+-------------------------------------------------------------------------------
+step6{
+    cat README.txt -> (to read what I do)
+    cat x6lkchFksj -> (to read what is in the link)
+    find -size 73c -> (to find the file which have 73 byte)
+    cd m7lRDpRYUJ  -> (to enter the required file)
+}
+-------------------------------------------------------------------------------
+step7{
+    mv  xVMvVOKNW5 xVMvVOKNW5.txt -> (to change file to .txt to read what is in it)
+    cat xVMvVOKNW5.txt -> (to read)
+}
+------------------------------------FINISH--------------------------------------
