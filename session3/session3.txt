@@ -1,0 +1,39 @@
+step1 {
+   sudo useradd -m osc (add new user with name osc in home)
+   ls (list all users in home)
+   sudo passwd osc (add password to osc)
+   sudo groupadd osc_group (creat new group with name osc_group)
+   sudo usermod -aG osc_group osc (Add "osc" to "osc_group")
+   sudo usermod -aG sudo osc (to grant sudo privileges to osc)
+   su osc (switch user to osc)
+}
+ ------------------------------------------------------------------------
+
+step2 {
+    mkdir permission_practice (creat dir with name permission_practice)
+    cd permission_practice (change to permission_practice)
+    touch public_file.txt (creat file with name  public_file.txt)
+    chmod 666  public_file.txt (read and write permissions for everyone)
+    touch private_file.txt (creat file with name  private_file.txt)
+    chmod 600  private_file.txt (read and write permissions only for the owner)
+     touch executable_script.sh (creat file with name  executable_script.sh)
+    chmod 750  executable_script.sh (read, write, and execute permissions for the owner and read and execute permissions for the group)    
+}
+---------------------------------------------------------------------------
+step3{
+     sudo chown mina:osc_group private_file.txt (Change the owner and group of private_file.txt)
+}
+---------------------------------------------------------------------------
+step4 {
+     sleep 1000 &
+     kill -9 6372 (to kill the privious process with pid)
+     vim 
+     ctrl+z (to stop this process)
+     killall -9 vim (to kill all processes of name vim)
+     jobs (to Verify that the vim and sleep processes are no longer running)
+}
+----------------------------------------------------------------------------
+step5 {
+   sudo apt install neofetch 
+   sudo apt remove neofetch
+}
